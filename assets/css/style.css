@@ -1538,7 +1538,8 @@ section {
 
 .contact .icon-boxes .icon-box p {
   font-size: 15px;
-  color: #848484;
+  color: #000;
+  /*color: #848484;*/
 }
 
 .contact .info {
@@ -1573,15 +1574,68 @@ section {
   margin-bottom: 0;
   font-size: 14px;
   color: #4b7dab;
+  padding: 2px 0;
+}
+
+.contact .info2 {
+  width: 100%;
+  background: #fff;
+}
+
+.contact .info2 i {
+  font-size: 20px;
+  color: #1977cc;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #d6e9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info2 h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #2c4964;
+}
+
+.contact .info2 p {
+  /*padding: 0 0 0 60px;*/
+  padding: 2px 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #4b7dab;
+}
+
+
+.contact .contact-info {
+  padding: 0 50px;
 }
 
 .contact .info .email, .contact .info .phone {
-  margin-top: 40px;
+  /*margin-top: 40px;*/
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #1977cc;
   color: #fff;
+}
+
+.contact .info{
+    padding: 10px 0;
+}
+
+.contact .info p{
+  font-weight: bold;
+}
+
+.contact .info span{
+  font-weight: 400;
 }
 
 .contact .php-email-form {
@@ -1834,4 +1888,17 @@ section {
   background: #1c84e3;
   color: #fff;
   text-decoration: none;
+}
+
+
+.about-us p{
+  font-weight: bold;
+}
+
+.about-us span{
+  font-weight: 400;
+}
+
+.about-us ol {
+    padding: 0 30px;
 }
