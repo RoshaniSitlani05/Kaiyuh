@@ -9,7 +9,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  /*font-family: "Open Sans", sans-serif;*/
+  font-family: Titillium;
   color: #444444;
 }
 
@@ -24,7 +25,8 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  /*font-family: "Raleway", sans-serif;*/
+  font-family: Afta serif;
 }
 
 /*--------------------------------------------------------------
@@ -185,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 0.5px;
-  font-family: "Poppins", sans-serif;
+  /*font-family: "Poppins", sans-serif;*/
 }
 
 #header .logo a {
